@@ -1,0 +1,67 @@
+Let bool , bool >> bool conj maps x , y to 
+	if x = true then y 
+	else false 
+.
+
+Let bool , bool >> bool disj maps x , y to 
+	if x = true then true 
+	else y 
+.
+
+Let bool >> bool negb maps x to 
+	if x = true then false
+	else true 
+.
+
+Let num >> num pred maps x to x + -1 .
+
+Let num , num >> num subtract maps x , y to 
+	if y = 0 then 
+		x
+	else (
+		if y < 0 then 
+			subtract ( x + 1 ) ( y + 1 )
+		else 
+			subtract ( pred x ) ( pred y )
+	) 
+.
+
+Let num >> num negi maps x to subtract 0 x .
+
+Let num , num , num >> num divhp maps x , y , acc to 
+	if y = 0 then
+		0
+	else ( 
+		if x < 0 then 
+			negi ( divhp ( negi x ) y acc )
+		else ( 
+			if y < 0 then 
+				negi ( divhp x ( negi y ) acc )
+			else ( 
+				if x < y then 
+					acc
+				else
+					divhp ( subtract x y ) y ( acc + 1 )
+			)
+		)
+	) 
+. 
+
+Let num , num >> num div maps x , y to divhp x y 0 .
+
+Let num , num >> bool les maps x , y to
+	if x < y then true 
+	else false 
+.
+
+Let num , num >> bool eq maps x , y to 
+	if x = y then true
+	else false 
+.
+
+Let num , num >> bool gtr maps x , y to 
+	if ( disj ( les x y ) ( eq x y ) ) then false
+	else true 
+.
+
+Compute div 81 -9 .

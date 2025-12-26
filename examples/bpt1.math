@@ -1,0 +1,3 @@
+Let num , num >> num add maps a , b to a + b .
+Let num >> num addone maps a to add a 1 .
+Compute addone 1 .

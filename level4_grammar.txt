@@ -1,0 +1,30 @@
+00.		Z -> L
+01.		L -> C
+02.		L -> S C 
+03.		S -> S D 
+04.		S -> D
+05.		D -> Let T id be E . 
+06.		D -> Let F id maps I to E . 
+07.		T -> num 
+08.		T -> bool
+09.		F -> G >> T  
+10.		G -> T , G 
+11.		G -> T
+12.		I -> id , I 
+13.		I -> id
+14.		E -> if B then A else A 
+15.		E -> A
+16.		B -> P < P 
+17.		B -> P = P 
+18.		B -> P 
+19.		A -> A + M 
+20.		A -> M
+21.		M -> M * U 
+22.		M -> U
+23.		U -> U P 
+24.		U -> P
+25.		P -> num_lit 
+26.		P -> bool_lit
+27.		P -> id 
+28.		P -> ( E ) 
+29.		C -> Compute E .

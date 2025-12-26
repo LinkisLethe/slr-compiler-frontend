@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Let",
+    "lexeme": "Let"
+  },
+  {
+    "name": "num",
+    "lexeme": "num"
+  },
+  {
+    "name": ",",
+    "lexeme": ","
+  },
+  {
+    "name": "num",
+    "lexeme": "num"
+  },
+  {
+    "name": ">>",
+    "lexeme": ">>"
+  },
+  {
+    "name": "num",
+    "lexeme": "num"
+  },
+  {
+    "name": "identifier",
+    "lexeme": "add"
+  },
+  {
+    "name": "maps",
+    "lexeme": "maps"
+  },
+  {
+    "name": "identifier",
+    "lexeme": "a"
+  },
+  {
+    "name": ",",
+    "lexeme": ","
+  },
+  {
+    "name": "identifier",
+    "lexeme": "b"
+  },
+  {
+    "name": "to",
+    "lexeme": "to"
+  },
+  {
+    "name": "identifier",
+    "lexeme": "a"
+  },
+  {
+    "name": "+",
+    "lexeme": "+"
+  },
+  {
+    "name": "identifier",
+    "lexeme": "b"
+  },
+  {
+    "name": ".",
+    "lexeme": "."
+  },
+  {
+    "name": "Let",
+    "lexeme": "Let"
+  },
+  {
+    "name": "num",
+    "lexeme": "num"
+  },
+  {
+    "name": ">>",
+    "lexeme": ">>"
+  },
+  {
+    "name": "num",
+    "lexeme": "num"
+  },
+  {
+    "name": "identifier",
+    "lexeme": "addone"
+  },
+  {
+    "name": "maps",
+    "lexeme": "maps"
+  },
+  {
+    "name": "identifier",
+    "lexeme": "a"
+  },
+  {
+    "name": "to",
+    "lexeme": "to"
+  },
+  {
+    "name": "identifier",
+    "lexeme": "add"
+  },
+  {
+    "name": "identifier",
+    "lexeme": "a"
+  },
+  {
+    "name": "num_lit",
+    "lexeme": "1"
+  },
+  {
+    "name": ".",
+    "lexeme": "."
+  },
+  {
+    "name": "Compute",
+    "lexeme": "Compute"
+  },
+  {
+    "name": "identifier",
+    "lexeme": "addone"
+  },
+  {
+    "name": "num_lit",
+    "lexeme": "1"
+  },
+  {
+    "name": ".",
+    "lexeme": "."
+  }
+]

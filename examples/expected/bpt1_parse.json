@@ -1,0 +1,353 @@
+{
+  "name": "Z",
+  "children": [
+    {
+      "name": "L",
+      "children": [
+        {
+          "name": "S",
+          "children": [
+            {
+              "name": "S",
+              "children": [
+                {
+                  "name": "D",
+                  "children": [
+                    {
+                      "name": "Let",
+                      "lexeme": "Let"
+                    },
+                    {
+                      "name": "F",
+                      "children": [
+                        {
+                          "name": "G",
+                          "children": [
+                            {
+                              "name": "T",
+                              "children": [
+                                {
+                                  "name": "num",
+                                  "lexeme": "num"
+                                }
+                              ]
+                            },
+                            {
+                              "name": ",",
+                              "lexeme": ","
+                            },
+                            {
+                              "name": "G",
+                              "children": [
+                                {
+                                  "name": "T",
+                                  "children": [
+                                    {
+                                      "name": "num",
+                                      "lexeme": "num"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": ">>",
+                          "lexeme": ">>"
+                        },
+                        {
+                          "name": "T",
+                          "children": [
+                            {
+                              "name": "num",
+                              "lexeme": "num"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "identifier",
+                      "lexeme": "add"
+                    },
+                    {
+                      "name": "maps",
+                      "lexeme": "maps"
+                    },
+                    {
+                      "name": "I",
+                      "children": [
+                        {
+                          "name": "identifier",
+                          "lexeme": "a"
+                        },
+                        {
+                          "name": ",",
+                          "lexeme": ","
+                        },
+                        {
+                          "name": "I",
+                          "children": [
+                            {
+                              "name": "identifier",
+                              "lexeme": "b"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "to",
+                      "lexeme": "to"
+                    },
+                    {
+                      "name": "E",
+                      "children": [
+                        {
+                          "name": "A",
+                          "children": [
+                            {
+                              "name": "A",
+                              "children": [
+                                {
+                                  "name": "M",
+                                  "children": [
+                                    {
+                                      "name": "U",
+                                      "children": [
+                                        {
+                                          "name": "P",
+                                          "children": [
+                                            {
+                                              "name": "identifier",
+                                              "lexeme": "a"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "+",
+                              "lexeme": "+"
+                            },
+                            {
+                              "name": "M",
+                              "children": [
+                                {
+                                  "name": "U",
+                                  "children": [
+                                    {
+                                      "name": "P",
+                                      "children": [
+                                        {
+                                          "name": "identifier",
+                                          "lexeme": "b"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": ".",
+                      "lexeme": "."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "D",
+              "children": [
+                {
+                  "name": "Let",
+                  "lexeme": "Let"
+                },
+                {
+                  "name": "F",
+                  "children": [
+                    {
+                      "name": "G",
+                      "children": [
+                        {
+                          "name": "T",
+                          "children": [
+                            {
+                              "name": "num",
+                              "lexeme": "num"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": ">>",
+                      "lexeme": ">>"
+                    },
+                    {
+                      "name": "T",
+                      "children": [
+                        {
+                          "name": "num",
+                          "lexeme": "num"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "identifier",
+                  "lexeme": "addone"
+                },
+                {
+                  "name": "maps",
+                  "lexeme": "maps"
+                },
+                {
+                  "name": "I",
+                  "children": [
+                    {
+                      "name": "identifier",
+                      "lexeme": "a"
+                    }
+                  ]
+                },
+                {
+                  "name": "to",
+                  "lexeme": "to"
+                },
+                {
+                  "name": "E",
+                  "children": [
+                    {
+                      "name": "A",
+                      "children": [
+                        {
+                          "name": "M",
+                          "children": [
+                            {
+                              "name": "U",
+                              "children": [
+                                {
+                                  "name": "U",
+                                  "children": [
+                                    {
+                                      "name": "U",
+                                      "children": [
+                                        {
+                                          "name": "P",
+                                          "children": [
+                                            {
+                                              "name": "identifier",
+                                              "lexeme": "add"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "P",
+                                      "children": [
+                                        {
+                                          "name": "identifier",
+                                          "lexeme": "a"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "P",
+                                  "children": [
+                                    {
+                                      "name": "num_lit",
+                                      "lexeme": "1"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": ".",
+                  "lexeme": "."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "C",
+          "children": [
+            {
+              "name": "Compute",
+              "lexeme": "Compute"
+            },
+            {
+              "name": "E",
+              "children": [
+                {
+                  "name": "A",
+                  "children": [
+                    {
+                      "name": "M",
+                      "children": [
+                        {
+                          "name": "U",
+                          "children": [
+                            {
+                              "name": "U",
+                              "children": [
+                                {
+                                  "name": "P",
+                                  "children": [
+                                    {
+                                      "name": "identifier",
+                                      "lexeme": "addone"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "P",
+                              "children": [
+                                {
+                                  "name": "num_lit",
+                                  "lexeme": "1"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": ".",
+              "lexeme": "."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

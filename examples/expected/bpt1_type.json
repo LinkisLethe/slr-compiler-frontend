@@ -1,0 +1,430 @@
+{
+  "name": "Z",
+  "type": "NA",
+  "children": [
+    {
+      "name": "L",
+      "type": "NA",
+      "children": [
+        {
+          "name": "S",
+          "type": "NA",
+          "children": [
+            {
+              "name": "S",
+              "type": "NA",
+              "children": [
+                {
+                  "name": "D",
+                  "type": "NA",
+                  "children": [
+                    {
+                      "name": "Let",
+                      "type": "NA",
+                      "lexeme": "Let"
+                    },
+                    {
+                      "name": "F",
+                      "type": "num->num->num",
+                      "children": [
+                        {
+                          "name": "G",
+                          "type": "num->num",
+                          "children": [
+                            {
+                              "name": "T",
+                              "type": "num",
+                              "children": [
+                                {
+                                  "name": "num",
+                                  "type": "num",
+                                  "lexeme": "num"
+                                }
+                              ]
+                            },
+                            {
+                              "name": ",",
+                              "type": "NA",
+                              "lexeme": ","
+                            },
+                            {
+                              "name": "G",
+                              "type": "num",
+                              "children": [
+                                {
+                                  "name": "T",
+                                  "type": "num",
+                                  "children": [
+                                    {
+                                      "name": "num",
+                                      "type": "num",
+                                      "lexeme": "num"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": ">>",
+                          "type": "NA",
+                          "lexeme": ">>"
+                        },
+                        {
+                          "name": "T",
+                          "type": "num",
+                          "children": [
+                            {
+                              "name": "num",
+                              "type": "num",
+                              "lexeme": "num"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "identifier",
+                      "type": "num->num->num",
+                      "lexeme": "add"
+                    },
+                    {
+                      "name": "maps",
+                      "type": "NA",
+                      "lexeme": "maps"
+                    },
+                    {
+                      "name": "I",
+                      "type": "num->num",
+                      "children": [
+                        {
+                          "name": "identifier",
+                          "type": "num",
+                          "lexeme": "a"
+                        },
+                        {
+                          "name": ",",
+                          "type": "NA",
+                          "lexeme": ","
+                        },
+                        {
+                          "name": "I",
+                          "type": "num",
+                          "children": [
+                            {
+                              "name": "identifier",
+                              "type": "num",
+                              "lexeme": "b"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "to",
+                      "type": "NA",
+                      "lexeme": "to"
+                    },
+                    {
+                      "name": "E",
+                      "type": "num",
+                      "children": [
+                        {
+                          "name": "A",
+                          "type": "num",
+                          "children": [
+                            {
+                              "name": "A",
+                              "type": "num",
+                              "children": [
+                                {
+                                  "name": "M",
+                                  "type": "num",
+                                  "children": [
+                                    {
+                                      "name": "U",
+                                      "type": "num",
+                                      "children": [
+                                        {
+                                          "name": "P",
+                                          "type": "num",
+                                          "children": [
+                                            {
+                                              "name": "identifier",
+                                              "type": "num",
+                                              "lexeme": "a"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "+",
+                              "type": "NA",
+                              "lexeme": "+"
+                            },
+                            {
+                              "name": "M",
+                              "type": "num",
+                              "children": [
+                                {
+                                  "name": "U",
+                                  "type": "num",
+                                  "children": [
+                                    {
+                                      "name": "P",
+                                      "type": "num",
+                                      "children": [
+                                        {
+                                          "name": "identifier",
+                                          "type": "num",
+                                          "lexeme": "b"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": ".",
+                      "type": "NA",
+                      "lexeme": "."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "D",
+              "type": "NA",
+              "children": [
+                {
+                  "name": "Let",
+                  "type": "NA",
+                  "lexeme": "Let"
+                },
+                {
+                  "name": "F",
+                  "type": "num->num",
+                  "children": [
+                    {
+                      "name": "G",
+                      "type": "num",
+                      "children": [
+                        {
+                          "name": "T",
+                          "type": "num",
+                          "children": [
+                            {
+                              "name": "num",
+                              "type": "num",
+                              "lexeme": "num"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": ">>",
+                      "type": "NA",
+                      "lexeme": ">>"
+                    },
+                    {
+                      "name": "T",
+                      "type": "num",
+                      "children": [
+                        {
+                          "name": "num",
+                          "type": "num",
+                          "lexeme": "num"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "identifier",
+                  "type": "num->num",
+                  "lexeme": "addone"
+                },
+                {
+                  "name": "maps",
+                  "type": "NA",
+                  "lexeme": "maps"
+                },
+                {
+                  "name": "I",
+                  "type": "num",
+                  "children": [
+                    {
+                      "name": "identifier",
+                      "type": "num",
+                      "lexeme": "a"
+                    }
+                  ]
+                },
+                {
+                  "name": "to",
+                  "type": "NA",
+                  "lexeme": "to"
+                },
+                {
+                  "name": "E",
+                  "type": "num",
+                  "children": [
+                    {
+                      "name": "A",
+                      "type": "num",
+                      "children": [
+                        {
+                          "name": "M",
+                          "type": "num",
+                          "children": [
+                            {
+                              "name": "U",
+                              "type": "num",
+                              "children": [
+                                {
+                                  "name": "U",
+                                  "type": "num->num",
+                                  "children": [
+                                    {
+                                      "name": "U",
+                                      "type": "num->num->num",
+                                      "children": [
+                                        {
+                                          "name": "P",
+                                          "type": "num->num->num",
+                                          "children": [
+                                            {
+                                              "name": "identifier",
+                                              "type": "num->num->num",
+                                              "lexeme": "add"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "P",
+                                      "type": "num",
+                                      "children": [
+                                        {
+                                          "name": "identifier",
+                                          "type": "num",
+                                          "lexeme": "a"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "P",
+                                  "type": "num",
+                                  "children": [
+                                    {
+                                      "name": "num_lit",
+                                      "type": "num",
+                                      "lexeme": "1"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": ".",
+                  "type": "NA",
+                  "lexeme": "."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "C",
+          "type": "NA",
+          "children": [
+            {
+              "name": "Compute",
+              "type": "NA",
+              "lexeme": "Compute"
+            },
+            {
+              "name": "E",
+              "type": "num",
+              "children": [
+                {
+                  "name": "A",
+                  "type": "num",
+                  "children": [
+                    {
+                      "name": "M",
+                      "type": "num",
+                      "children": [
+                        {
+                          "name": "U",
+                          "type": "num",
+                          "children": [
+                            {
+                              "name": "U",
+                              "type": "num->num",
+                              "children": [
+                                {
+                                  "name": "P",
+                                  "type": "num->num",
+                                  "children": [
+                                    {
+                                      "name": "identifier",
+                                      "type": "num->num",
+                                      "lexeme": "addone"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "P",
+                              "type": "num",
+                              "children": [
+                                {
+                                  "name": "num_lit",
+                                  "type": "num",
+                                  "lexeme": "1"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": ".",
+              "type": "NA",
+              "lexeme": "."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
