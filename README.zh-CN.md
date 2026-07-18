@@ -1,5 +1,9 @@
 # SLR 编译器前端
 
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white&style=flat-square)](https://www.python.org/)
+[![Parser](https://img.shields.io/badge/Parser-SLR-6A5ACD?style=flat-square)](https://en.wikipedia.org/wiki/Simple_LR_parser)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+
 [English](README.md)
 
 这是一个仅使用 Python 标准库实现的小型编译器前端。程序读取带类型的表达式语言，依次完成词法分析、SLR 语法分析、语义与类型检查，并将词法结果、解析树、类型树和 AST 写入 JSON 文件。
