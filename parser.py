@@ -1,4 +1,7 @@
 import csv
+from pathlib import Path
+
+PROJECT_DIR = Path(__file__).resolve().parent
 
 class productionRule:
     def __init__(self, idx, lhs, rhs):
@@ -23,8 +26,8 @@ class Parser:
 
     def load_grammar(self):
         #load grammar rules
-        gf = "level4_grammar.txt"
-        f = open(gf, "r")
+        gf = PROJECT_DIR / "level4_grammar.txt"
+        f = open(gf, "r", encoding="utf-8")
         idx = 0
         for line in f:
             line = line.strip()
@@ -47,8 +50,8 @@ class Parser:
 
     def load_slr_table(self):
         #load slr table
-        slr = "level4_parsing_table.csv"
-        f = open(slr, "r")
+        slr = PROJECT_DIR / "level4_parsing_table.csv"
+        f = open(slr, "r", encoding="utf-8", newline="")
         rows = list(csv.reader(f))
         f.close()
 

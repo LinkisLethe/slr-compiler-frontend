@@ -31,7 +31,7 @@ if __name__ == '__main__':
     tokens = lexer.tokens()
 
     #lexer output
-    with open(lexer_out, 'w') as o:
+    with open(lexer_out, 'w', encoding="utf-8") as o:
         if tokens is None:
             o.write("Lexical error")
         else:
@@ -42,11 +42,11 @@ if __name__ == '__main__':
 
     #if lexical error,following phases are also lexical error
     if tokens is None:
-        with open(parse_out, 'w') as o:
+        with open(parse_out, 'w', encoding="utf-8") as o:
             o.write("Lexical error")
-        with open(type_out, 'w') as o:
+        with open(type_out, 'w', encoding="utf-8") as o:
             o.write("Lexical error")
-        with open(ast_out, 'w') as o:
+        with open(ast_out, 'w', encoding="utf-8") as o:
             o.write("Lexical error")
         sys.exit(0)
 
@@ -59,31 +59,31 @@ if __name__ == '__main__':
 
     #syntax error, current and following phases are syntax error
     if ret is None or ret is False:
-        with open(parse_out, 'w') as o:
+        with open(parse_out, 'w', encoding="utf-8") as o:
             o.write("Syntax error")
-        with open(type_out, 'w') as o:
+        with open(type_out, 'w', encoding="utf-8") as o:
             o.write("Syntax error")
-        with open(ast_out, 'w') as o:
+        with open(ast_out, 'w', encoding="utf-8") as o:
             o.write("Syntax error")
         sys.exit(0)
 
     parse_tree, type_tree, ast_forest = ret
 
     #parse output
-    with open(parse_out, 'w') as o:
+    with open(parse_out, 'w', encoding="utf-8") as o:
         json.dump(parse_tree, o, indent=2)
 
     #type error
     if parser.type_error:
-        with open(type_out, 'w') as o:
+        with open(type_out, 'w', encoding="utf-8") as o:
             o.write("Type error")
-        with open(ast_out, 'w') as o:
+        with open(ast_out, 'w', encoding="utf-8") as o:
             o.write("Type error")
         sys.exit(0)
 
     #type+ast output
-    with open(type_out, 'w') as o:
+    with open(type_out, 'w', encoding="utf-8") as o:
         json.dump(type_tree, o, indent=2)
 
-    with open(ast_out, 'w') as o:
+    with open(ast_out, 'w', encoding="utf-8") as o:
         json.dump(ast_forest, o, indent=2)
