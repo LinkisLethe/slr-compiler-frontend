@@ -34,8 +34,8 @@ python -m unittest discover -s tests -v
 
 `examples/expected` 保存了 `bpt1.math` 的已核验参考输出。`ultra.math` 进一步覆盖声明、条件分支、递归、部分调用和整数除法。
 
-## 来源与限制
+## 限制
 
-该编译器完成于 2025 年 12 月的 COMP3173 Compiler Principles 课程。稳定资源路径、UTF-8 输出、自动化测试、CI 和文档整理于 2026 年 7 月补充。项目只实现编译器前端分析，不执行程序，也不生成目标代码。
+项目只实现编译器前端分析，不执行程序，也不生成目标代码。
 
 源代码采用 [MIT License](LICENSE)。课程文法和分析表仅作为复现分析器所需的输入文件保留。

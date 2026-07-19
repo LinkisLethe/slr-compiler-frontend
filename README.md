@@ -34,8 +34,8 @@ python -m unittest discover -s tests -v
 
 The `examples/expected` files are the verified reference outputs for `bpt1.math`. The larger `ultra.math` example exercises declarations, branching, recursion, partial application, and integer division.
 
-## Provenance and limits
+## Limits
 
-The compiler was completed for COMP3173 Compiler Principles in December 2025. Stable resource paths, UTF-8 output, automated tests, CI, and documentation were added in July 2026. The project implements front-end analysis only; it does not evaluate programs or generate target code.
+The project implements front-end analysis only; it does not evaluate programs or generate target code.
 
 Source code is available under the [MIT License](LICENSE). The course grammar and parsing table are included only as inputs required to reproduce the analyzer.
